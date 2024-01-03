@@ -1,7 +1,6 @@
 <template>
-  <div>
+  <div class="chat-box">
     <beautiful-chat
-        class="chat-box"
         :participants="participants"
         :titleImageUrl="titleImageUrl"
         :onMessageWasSent="onMessageWasSent"
@@ -198,5 +197,12 @@ export default {
   width: 100vw;
   height: 50vh;
 }
-
+/*.sc-launcher{*/
+/*  margin: auto 0;*/
+/*  right: 500px;*/
+/*}*/
+/*.sc-chat-window {*/
+/*  width: 405px !important;*/
+/*  transition: all 0.3s ease;*/
+/*}*/
 </style>

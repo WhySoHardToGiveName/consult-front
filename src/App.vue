@@ -25,4 +25,10 @@ nav a {
 nav a.router-link-exact-active {
   color: #42b983;
 }
+.sc-chat-window {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 </style>
