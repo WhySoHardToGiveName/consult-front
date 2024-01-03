@@ -1,6 +1,7 @@
 <template>
   <div>
     <div class="register-wrap">
+      <el-card shadow="always">
       <div class="form">
         <el-form :model="ruleForm" status-icon :rules="rules" ref="ruleForm">
           <el-form-item prop="username" label="用户名">
@@ -39,6 +40,7 @@
           <p @click="handleCommand">已有账号？直接登录</p>
         </div>
       </div>
+      </el-card>
     </div>
   </div>
 </template>

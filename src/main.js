@@ -7,6 +7,7 @@ import 'element-ui/lib/theme-chalk/index.css';
 import MChat from '@maybecode/m-chat'
 
 Vue.use(MChat)
+
 Vue.config.productionTip = false
 
 Vue.use(ElementUI);

@@ -1,6 +1,7 @@
 <template>
   <div>
     <div class="login-wrap">
+      <el-card shadow="always">
       <el-form :model="form" ref="form" class="demo-ruleForm">
         <el-form-item label="用户名" prop="username">
           <el-input v-model="form.username"></el-input>
@@ -15,6 +16,7 @@
           <p @click="handleCommand">注册帐号</p>
         </div>
       </el-form>
+        </el-card>
     </div>
   </div>
 </template>

@@ -1,6 +1,7 @@
 <template>
   <div>
     <div class="expert-register">
+      <el-card shadow="always">
       <el-form ref="form" :model="form" label-width="80px" :rules="formRule">
         <el-form-item label="姓名" prop="username">
           <el-input
@@ -24,6 +25,7 @@
           <el-button type="primary">登录</el-button>
         </el-form-item>
       </el-form>
+      </el-card>
     </div>
   </div>
 </template>
@@ -66,8 +68,15 @@ export default {
 </script>
 
 <style scoped>
-.expert-register{
-  width: 1200px;
-  margin: 0 auto;
+.expert-register {
+  width: 1000px;
+  height: 220px;
+  padding: 20px 25px 0 25px;
+  line-height: 40px;
+  position: relative;
+  display: inline-block;
+  background-color: rgba(255, 255, 255,0.8);
+  border-radius: 20px;
+  margin-top: 40px;
 }
 </style>
